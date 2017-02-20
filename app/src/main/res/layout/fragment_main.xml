@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.fbarrios.dev.zodiac.view.MainActivityFragment"
+    tools:showIn="@layout/activity_main">
+
+    <TableRow
+        android:layout_weight="1"
+        android:weightSum="3">
+
+        <ImageButton
+            android:id="@+id/ariesIb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:scaleType="centerInside"
+            android:src="@drawable/aries"
+            android:transitionName="mainImageTransition" />
+
+        <ImageButton
+            android:id="@+id/taurusIb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:scaleType="centerInside"
+            android:src="@drawable/taurus" />
+
+        <ImageButton
+            android:id="@+id/geminiIb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:scaleType="centerInside"
+            android:src="@drawable/gemini" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_weight="1"
+        android:weightSum="3">
+
+        <ImageButton
+            android:id="@+id/cancerIb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:scaleType="centerInside"
+            android:src="@drawable/cancer" />
+
+        <ImageButton
+            android:id="@+id/leoIb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:scaleType="centerInside"
+            android:src="@drawable/leo" />
+
+        <ImageButton
+            android:id="@+id/virgoIb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:scaleType="centerInside"
+            android:src="@drawable/virgo" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_weight="1"
+        android:weightSum="3">
+
+        <ImageButton
+            android:id="@+id/libraIb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:scaleType="centerInside"
+            android:src="@drawable/libra" />
+
+        <ImageButton
+            android:id="@+id/scorpioIb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:scaleType="centerInside"
+            android:src="@drawable/scorpio" />
+
+        <ImageButton
+            android:id="@+id/sagittariusIb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:scaleType="centerInside"
+            android:src="@drawable/sagittarius" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_weight="1"
+        android:weightSum="3">
+
+        <ImageButton
+            android:id="@+id/capricornIb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:scaleType="centerInside"
+            android:src="@drawable/capricorn" />
+
+        <ImageButton
+            android:id="@+id/aquariusIb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:scaleType="centerInside"
+            android:src="@drawable/aquarius" />
+
+        <ImageButton
+            android:id="@+id/piscesIb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:scaleType="centerInside"
+            android:src="@drawable/pisces" />
+
+    </TableRow>
+
+</TableLayout>
